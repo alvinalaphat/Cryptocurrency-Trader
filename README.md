@@ -1,6 +1,7 @@
 # Cryptocurrency-Trader
 
 Data Formatting
+
 timestamp - A timestamp for the minute covered by the row.
 
 Asset_ID - An ID code for the cryptoasset.
