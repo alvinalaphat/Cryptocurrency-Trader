@@ -4,6 +4,8 @@ https://colab.research.google.com/drive/1ZyEDCOd_npZGEp9ayQrV4m9JK_qnSOGQ?usp=sh
 ## Instructions to Upload Data
 Download data from here: https://www.kaggle.com/competitions/g-research-crypto-forecasting/data?select=supplemental_train.csv
 
+It's called "supplemental_train.csv"
+
 Mount on Google Drive root folder. 
 
 ## Report
