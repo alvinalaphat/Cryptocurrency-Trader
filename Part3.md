@@ -1,3 +1,6 @@
+## Link to Colab
+https://colab.research.google.com/drive/1ZyEDCOd_npZGEp9ayQrV4m9JK_qnSOGQ?usp=sharing
+
 ## Instructions to Upload Data
 Download data from here: https://www.kaggle.com/competitions/g-research-crypto-forecasting/data?select=supplemental_train.csv
 
