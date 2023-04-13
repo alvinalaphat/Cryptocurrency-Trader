@@ -1,3 +1,5 @@
+Luke worked on cleaning the data to feed into the model. Alvin worked on testing the model with the validation/test data and then tweaked parameters to experiment what performed best with the model. 
+
 Building a cryptocurrency trading algorithm with price prediction is a challenging task due to the high volatility and non-linearity of the cryptocurrency market. In this report, we propose a neural network architecture for predicting the price of a cryptocurrency based on historical price data. The goal is to achieve a high classification accuracy on the training and validation sets and improve the generalization capabilities of the model.
 
 Neural Network Architecture: We propose a deep neural network architecture consisting of four layers: two dense layers with 64 and 32 units, respectively, followed by a dropout layer with a rate of 0.2 and a final dense layer with a single output unit. We use the Rectified Linear Unit (ReLU) activation function for the hidden layers and a linear activation function for the output layer. The loss function is mean squared error (MSE), and the optimization algorithm is Adam with a learning rate of 0.001.
