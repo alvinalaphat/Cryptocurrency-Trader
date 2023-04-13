@@ -1,5 +1,8 @@
+## Instructions to Upload Data
+Download data from here: https://www.kaggle.com/competitions/g-research-crypto-forecasting/data?select=supplemental_train.csv
+Mount on Google Drive root folder. 
 
-
+## Report
 Luke worked on cleaning the data to feed into the model and ran it through testing with the model architecture. Alvin worked on testing the model with the validation/test data and then tweaked parameters to experiment what performed best with the model. 
 
 Building a cryptocurrency trading algorithm with price prediction is a challenging task due to the high volatility and non-linearity of the cryptocurrency market. In this report, we propose a neural network architecture for predicting the price of a cryptocurrency based on historical price data. The goal is to achieve a high classification accuracy on the training and validation sets and improve the generalization capabilities of the model.
