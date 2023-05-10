@@ -9,8 +9,6 @@ Download data from here: https://www.kaggle.com/competitions/g-research-crypto-f
 
 It's called "supplemental_train.csv"
 
-Mount on Google Drive root folder. 
-
 ## Report
 Luke worked on implementing early stopping for the model as suggested in the part 3 deliverable using the Early Stopping module. Alvin worked on finding ways to reduce overfitting by working with a dropout layer and regularizing the data using regularizers from the Keras library. 
 
