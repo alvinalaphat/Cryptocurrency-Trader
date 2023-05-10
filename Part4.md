@@ -22,7 +22,7 @@ Methods applied:
 1. Time-series modification: The data was previously not in a format where the model would be able to use past data to predict future returns. We realigned the data in order to ensure that each row contains 15 minutes of time series data. 
 2. Feature selection: We select a subset of relevant features using feature importance analysis and drop irrelevant features.
 
-Accuracy: We train the model on a dataset consisting of 100K samples and test it on a validation set of 20K samples. The R^2 metric achieved on the training and validation set is .67. We used R^2 because R-squared (R^2) is an appropriate metric to use when you want to evaluate how well a regression model fits the data. It measures the proportion of variance in the target variable that is explained by the independent variables in the model.
+Accuracy: We train the model on a dataset consisting of 100K samples and test it on a validation set of 20K samples. The R^2 metric achieved on the training and validation set is .80. We used R^2 because R-squared (R^2) is an appropriate metric to use when you want to evaluate how well a regression model fits the data. It measures the proportion of variance in the target variable that is explained by the independent variables in the model.
 
 Commentary and Ideas for Improvements: The high accuracy achieved on the training set indicates that the model has learned the patterns in the training data well. However, the lower accuracy on the validation set suggests that the model may be overfitting to the training data and not generalizing well to unseen data.
 To improve the generalization capabilities of the model, we can implement the following:
