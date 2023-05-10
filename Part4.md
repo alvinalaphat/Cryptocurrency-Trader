@@ -12,11 +12,11 @@ It's called "supplemental_train.csv"
 Mount on Google Drive root folder. 
 
 ## Report
-Luke worked on cleaning the data to feed into the model and ran it through testing with the model architecture. Alvin worked on testing the model with the validation/test data and then tweaked parameters to experiment what performed best with the model. 
+Luke worked on implementing early stopping for the model as suggested in the past deliverable. Alvin worked on finding ways to reduce overfitting by working with a dropout layer and regularizing the data. 
 
 Building a cryptocurrency trading algorithm with price prediction is a challenging task due to the high volatility and non-linearity of the cryptocurrency market. In this report, we propose a neural network architecture for predicting the price of a cryptocurrency based on historical price data. The goal is to achieve a high classification accuracy on the training and validation sets and improve the generalization capabilities of the model.
 
-Neural Network Architecture: We propose a deep neural network architecture consisting of four layers: two dense layers with 128 and 128 units, respectively, followed by a dropout layer with a rate of 0.2 and a final dense layer with a single output unit. We use the Rectified Linear Unit (ReLU) activation function for the hidden layers and a linear activation function for the output layer. The loss function is mean squared error (MSE), and the optimization algorithm is Adam. Speaking of Adam, we plan to meet with the professor to discuss our architectural choices. 
+Neural Network Architecture: We propose a deep neural network architecture consisting of four layers: two dense layers with 128 and 128 units, respectively, followed by a dropout layer with a rate of 0.2 and a final dense layer with a single output unit. We use the Rectified Linear Unit (ReLU) activation function for the hidden layers and a linear activation function for the output layer. The loss function is mean squared error (MSE), and the optimization algorithm is Adam. 
 
 Methods applied:
 1. Time-series modification: The data was previously not in a format where the model would be able to use past data to predict future returns. We realigned the data in order to ensure that each row contains 15 minutes of time series data. 
@@ -30,4 +30,4 @@ To improve the generalization capabilities of the model, we can implement the fo
 2. Implement early stopping to prevent overfitting by stopping the training process when the validation accuracy stops improving.
 3. Increase the number of training samples to improve the robustness of the model.
 
-In this report, we proposed a neural network architecture for predicting cryptocurrency prices based on historical data. The model achieved high accuracy on the training and validation set. However, the model may be overfitting to the training data, and we suggest investigating our data transformation methods and increasing the amount of validation data to improve the generalization capabilities of the model. We'll use the above methods listed to dive deeper into why we might be overfitting the model. 
+In this report, we proposed a neural network architecture for predicting cryptocurrency prices based on historical data. The model achieved high accuracy on the training and validation set. However, the model may be overfitting to the training data, and we suggest investigating our data transformation methods and increasing the amount of validation data to improve the generalization capabilities of the model. 
