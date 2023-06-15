@@ -1,5 +1,8 @@
 # Cryptocurrency-Trader
 
+https://colab.research.google.com/drive/1ZyEDCOd_npZGEp9ayQrV4m9JK_qnSOGQ?usp=sharing
+
+
 Data Formatting
 
 timestamp - A timestamp for the minute covered by the row.
